@@ -44,7 +44,7 @@ Unwanted tasks can be deleted easily.
 Backend Integration
 The React frontend is connected to the backend for storing and retrieving task data. Ensure that the backend server is running and accessible.
 
-Contributing
+#### Contributing
 If you'd like to contribute to the project, follow these steps:
 
 Fork the project.
