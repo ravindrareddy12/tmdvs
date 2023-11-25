@@ -17,13 +17,10 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
-
-
-  git clone  https://github.com/ravindrareddy12/tmdvs
-  cd tmdvs
-  npm install
-  npm start
+1. Clone the repository: git clone  https://github.com/ravindrareddy12/tmdvs
+2. cd tmdvs
+3. npm install
+ 4. npm start
 ### Features
 
 Sign Up:
