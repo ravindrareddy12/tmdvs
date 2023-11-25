@@ -78,8 +78,8 @@ const UserSignin = ({ onSignIn }) => {
       <style>{styles}</style>
       <h2 style={{ marginBottom: 30 }}>User Signin</h2>
       <form onSubmit={handleSubmit}>
-        <input type="email" name="email" onChange={handleInputChange} placeholder="Email" /><br />
-        <input type="password" name="password" onChange={handleInputChange} placeholder="Password" />
+        <input type="email" name="email" onChange={handleInputChange} placeholder="Email" required/><br />
+        <input type="password" name="password" onChange={handleInputChange} placeholder="Password" required/>
         <button type="submit">Sign In</button>
         <p>{responseData}</p>
       </form>

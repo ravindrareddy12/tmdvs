@@ -81,19 +81,22 @@ const navigate = useNavigate()
           type="text"
           name="name"
           onChange={handleInputChange}
-          placeholder="Name"
+            placeholder="Name"
+            required
         />
         <input
           type="email"
           name="email"
           onChange={handleInputChange}
-          placeholder="Email"
+            placeholder="Email"
+            required
         /><br />
         <input
           type="password"
           name="password"
           onChange={handleInputChange}
-          placeholder="Password"
+            placeholder="Password"
+            required
         />
           <button type="submit">Sign In</button>
           <p>{ responseData}</p>
