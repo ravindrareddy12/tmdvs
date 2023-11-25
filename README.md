@@ -25,8 +25,7 @@ Make sure you have the following installed:
 ### Features
 
 1. Sign Up:
-
-New users can create an account by providing their name,email and password.
+   New users can create an account by providing their name,email and password.
 
 2. Signinin:
    Existing users can log in with their credentials.
