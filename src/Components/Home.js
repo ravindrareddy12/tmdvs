@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import '../styles/home.css'
 
-const BackgroundImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17lK9iHy4TIga7jAy5IQolz7KRCbFImbDsA&usqp=CAU"
+const BackgroundImage = "https://dynamics.folio3.com/blog/wp-content/uploads/2022/08/IT-Project-Management_-Steps-Methodologies-Examples-_-Best-IT-Project-Management-Service-consultants.png"
 
 export default function LandingPage() {
     return (
