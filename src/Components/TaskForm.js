@@ -4,16 +4,16 @@ const TaskForm = ({ handleSubmit, title, duedate, description, status, setTitle,
   <div >
   <form onSubmit={handleSubmit} style={formStyle}>
     <label>Title:</label>
-    <input type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Enter title" style={inputStyle}/><br/>
+    <input type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Enter title" style={inputStyle} required/><br/>
 
     <label>Due Date:</label>
-    <input type="date" name="duedate" value={duedate} onChange={(e) => setDueDate(e.target.value)} style={inputStyle}/><br/>
+    <input type="date" name="duedate" value={duedate} onChange={(e) => setDueDate(e.target.value)} style={inputStyle} required/><br/>
 
     <label>Description:</label>
-    <input type="text" name="description" value={description} onChange={(e) => setDescription(e.target.value)} placeholder="Enter Description" style={inputStyle}/><br/>
+    <input type="text" name="description" value={description} onChange={(e) => setDescription(e.target.value)} placeholder="Enter Description" style={inputStyle} required/><br/>
 
     <label>Status:</label>
-      <select type="text" name="status" value={status} onChange={(e) => setStatus(e.target.value)} placeholder="Status" style={inputStyle} >
+      <select type="text" name="status" value={status} onChange={(e) => setStatus(e.target.value)} placeholder="Status" style={inputStyle} required>
          <option value="">Select Status</option>
       <option value="In Progress">In Progress</option>
     </select><br/>
