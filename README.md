@@ -25,19 +25,20 @@ Make sure you have the following installed:
 
 Sign Up:
 
-New users can create an account by providing their email and password.
-Login:
+New users can create an account by providing their name,email and password.
 
+Signinin:
 Existing users can log in with their credentials.
+
 Add Task:
-
 Once logged in, users can add tasks with a title, description, and other relevant details.
+
 Edit Task:
-
 Users can edit existing tasks to update information.
-Delete Task:
 
+Delete Task:
 Unwanted tasks can be deleted easily.
+
 Backend Integration
 The React frontend is connected to the backend for storing and retrieving task data. Ensure that the backend server is running and accessible.
 
