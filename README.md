@@ -1,9 +1,9 @@
 
 ## RUN COMANDS
-  git clone https://github.com/ravindrareddy12/tmdvs
-   cd tmdvs
-  npm install
-   npm start
+  ## git clone https://github.com/ravindrareddy12/tmdvs
+   ## cd tmdvs
+  ## npm install
+   ## npm start
  
 ### `npm start`
 
